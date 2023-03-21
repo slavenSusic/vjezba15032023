@@ -42,9 +42,9 @@ function NewPost(props) {
             <input type="text" id="name" onChange={authorChangeHandler} />
         </p>
         <p className={classes.actions}>
-        { <button type="button" onClick={props.onClose}>Cancel</button> }
+         <button type="button" onClick={props.onClose}>Cancel</button> 
         <button>Submit</button>
-        <button></button>
+ 
         </p>
         
         </form>
